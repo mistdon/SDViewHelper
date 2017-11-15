@@ -9,6 +9,14 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+1. UIViewController+VCLoader
+```
+// create with Storyboard (Please make sure you have setted storyboard ID)
+UIViewController *vc = [UIViewController sd_viewController:@"SDLoaderTestViewController" arguments:@{@"type":@"hello"}];
+// create with xib or hard code
+UIViewController *vc = [UIViewController sd_viewController:@"SDSBLoaderViewController" inStoryboard:@"Main" arguments:@{@"flag":@(1)}];
+```
+
 ## Requirements
 
 ## Installation

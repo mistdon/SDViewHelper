@@ -7,6 +7,7 @@
 //
 
 #import "SDViewController.h"
+#import <SDViewHelper/UIViewController+VCLoader.h>
 
 @interface SDViewController ()
 
@@ -24,6 +25,23 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 2;
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    cell.textLabel.text = [NSString stringWithFormat:@"%ld - %ld",(long)indexPath.section, (long)indexPath.row];
+    return cell;
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    UIViewController *vc;
+    if(indexPath.row == 0){
+        vc = [UIViewController sd_viewController:@"SDLoaderTestViewController" arguments:@{@"type":@"hello"}];
+    }else{
+        vc = [UIViewController sd_viewController:@"SDSBLoaderViewController" inStoryboard:@"Main" arguments:@{@"flag":@(1)}];
+    }
+    [self.navigationController showViewController:vc sender:nil];
 }
 
 @end

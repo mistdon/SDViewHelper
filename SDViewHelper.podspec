@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SDViewHelper'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SDViewHelper.'
+  s.summary          = 'There are some useful category to develop quickly.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/momo13014/SDViewHelper'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'momo13014' => 'dong.shen@get88.cn' }
+  s.author           = { 'momo13014' => 'shendong13014@gmail.com' }
   s.source           = { :git => 'https://github.com/momo13014/SDViewHelper.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

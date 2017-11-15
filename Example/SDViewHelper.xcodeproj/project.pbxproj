@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		25F7DC7C27B8628189835D54 /* Pods_SDViewHelper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B8B74E80852753EF898FB43 /* Pods_SDViewHelper_Example.framework */; };
+		3B415EB91FBC38060079B9AB /* SDLoaderTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B415EB71FBC38060079B9AB /* SDLoaderTestViewController.m */; };
+		3B415EBA1FBC38060079B9AB /* SDLoaderTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B415EB81FBC38060079B9AB /* SDLoaderTestViewController.xib */; };
+		3BF743EB1FBC3FB400280885 /* SDSBLoaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF743EA1FBC3FB400280885 /* SDSBLoaderViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,7 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D891C931F9B093A500D37FA /* SDViewHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SDViewHelper.podspec; path = ../SDViewHelper.podspec; sourceTree = "<group>"; };
+		0D891C931F9B093A500D37FA /* SDViewHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SDViewHelper.podspec; path = ../SDViewHelper.podspec; sourceTree = "<group>"; };
+		3B415EB61FBC38060079B9AB /* SDLoaderTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDLoaderTestViewController.h; sourceTree = "<group>"; };
+		3B415EB71FBC38060079B9AB /* SDLoaderTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDLoaderTestViewController.m; sourceTree = "<group>"; };
+		3B415EB81FBC38060079B9AB /* SDLoaderTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SDLoaderTestViewController.xib; sourceTree = "<group>"; };
+		3BF743E91FBC3FB400280885 /* SDSBLoaderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDSBLoaderViewController.h; sourceTree = "<group>"; };
+		3BF743EA1FBC3FB400280885 /* SDSBLoaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDSBLoaderViewController.m; sourceTree = "<group>"; };
 		45407AF48D1B3C5AFC5C8BFB /* Pods-SDViewHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDViewHelper_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDViewHelper_Example/Pods-SDViewHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4A0A792FB0808DCC1279BD84 /* Pods-SDViewHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDViewHelper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDViewHelper_Example/Pods-SDViewHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5F3E580C29D64F170C2A61B5 /* Pods-SDViewHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDViewHelper_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDViewHelper_Tests/Pods-SDViewHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,9 +72,9 @@
 		7B8B74E80852753EF898FB43 /* Pods_SDViewHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDViewHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAAC06F49EB33014958FAEBF /* Pods_SDViewHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDViewHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABD11C96E0BCE1ACB9928DC5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		ABD11C96E0BCE1ACB9928DC5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C70CF75DCB0F3DC65563344D /* Pods-SDViewHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDViewHelper_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDViewHelper_Tests/Pods-SDViewHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F303867001C719C9DCD3DB3A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F303867001C719C9DCD3DB3A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +103,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B415EB51FBC37DB0079B9AB /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				3B415EB61FBC38060079B9AB /* SDLoaderTestViewController.h */,
+				3B415EB71FBC38060079B9AB /* SDLoaderTestViewController.m */,
+				3B415EB81FBC38060079B9AB /* SDLoaderTestViewController.xib */,
+				3BF743E91FBC3FB400280885 /* SDSBLoaderViewController.h */,
+				3BF743EA1FBC3FB400280885 /* SDSBLoaderViewController.m */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
 		583BC860D1A427386819C4DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +163,7 @@
 		6003F593195388D20070C39A /* Example for SDViewHelper */ = {
 			isa = PBXGroup;
 			children = (
+				3B415EB51FBC37DB0079B9AB /* Example */,
 				6003F59C195388D20070C39A /* SDAppDelegate.h */,
 				6003F59D195388D20070C39A /* SDAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -280,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				3B415EBA1FBC38060079B9AB /* SDLoaderTestViewController.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -412,6 +434,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BF743EB1FBC3FB400280885 /* SDSBLoaderViewController.m in Sources */,
+				3B415EB91FBC38060079B9AB /* SDLoaderTestViewController.m in Sources */,
 				6003F59E195388D20070C39A /* SDAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* SDViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
