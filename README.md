@@ -35,3 +35,6 @@ momo13014, dong.shen@get88.cn
 ## License
 
 SDViewHelper is available under the MIT license. See the LICENSE file for more info.
+
+There are some useful category to develop quickly.
+
