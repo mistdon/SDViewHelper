@@ -30,7 +30,7 @@ pod 'SDViewHelper'
 
 ## Author
 
-momo13014, dong.shen@get88.cn
+momo13014, shendong13014@gmail.com
 
 ## License
 

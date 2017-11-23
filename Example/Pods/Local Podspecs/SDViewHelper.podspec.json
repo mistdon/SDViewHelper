@@ -1,7 +1,7 @@
 {
   "name": "SDViewHelper",
   "version": "0.1.0",
-  "summary": "A short description of SDViewHelper.",
+  "summary": "There are some useful category to develop quickly.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/momo13014/SDViewHelper",
   "license": {
@@ -9,7 +9,7 @@
     "file": "LICENSE"
   },
   "authors": {
-    "momo13014": "dong.shen@get88.cn"
+    "momo13014": "shendong13014@gmail.com"
   },
   "source": {
     "git": "https://github.com/momo13014/SDViewHelper.git",

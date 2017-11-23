@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "UIView+IBnspectable.h"
+#import "UIView+RectCorner.h"
 #import "UIViewController+VCLoader.h"
 
 FOUNDATION_EXPORT double SDViewHelperVersionNumber;

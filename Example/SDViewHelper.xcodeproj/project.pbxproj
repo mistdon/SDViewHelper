@@ -26,7 +26,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		9E280B84C7F3572934885FA3 /* Pods_SDViewHelper_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAC06F49EB33014958FAEBF /* Pods_SDViewHelper_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		3BF743EA1FBC3FB400280885 /* SDSBLoaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDSBLoaderViewController.m; sourceTree = "<group>"; };
 		45407AF48D1B3C5AFC5C8BFB /* Pods-SDViewHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDViewHelper_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDViewHelper_Example/Pods-SDViewHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4A0A792FB0808DCC1279BD84 /* Pods-SDViewHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDViewHelper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDViewHelper_Example/Pods-SDViewHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5F3E580C29D64F170C2A61B5 /* Pods-SDViewHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDViewHelper_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDViewHelper_Tests/Pods-SDViewHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SDViewHelper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDViewHelper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -73,7 +71,6 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAAC06F49EB33014958FAEBF /* Pods_SDViewHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDViewHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD11C96E0BCE1ACB9928DC5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C70CF75DCB0F3DC65563344D /* Pods-SDViewHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDViewHelper_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDViewHelper_Tests/Pods-SDViewHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F303867001C719C9DCD3DB3A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,7 +93,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				9E280B84C7F3572934885FA3 /* Pods_SDViewHelper_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,8 +116,6 @@
 			children = (
 				4A0A792FB0808DCC1279BD84 /* Pods-SDViewHelper_Example.debug.xcconfig */,
 				45407AF48D1B3C5AFC5C8BFB /* Pods-SDViewHelper_Example.release.xcconfig */,
-				5F3E580C29D64F170C2A61B5 /* Pods-SDViewHelper_Tests.debug.xcconfig */,
-				C70CF75DCB0F3DC65563344D /* Pods-SDViewHelper_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -244,12 +238,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "SDViewHelper_Tests" */;
 			buildPhases = (
-				3B631C9C97C7D48BE453C7DD /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				ABDCD05B1A5C5C1A4318AFA0 /* [CP] Embed Pods Frameworks */,
-				B822DAF310BEC46CFD27CEDE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -319,24 +310,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3B631C9C97C7D48BE453C7DD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SDViewHelper_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		784F30F7065D935E37DDD185 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -355,30 +328,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDViewHelper_Example/Pods-SDViewHelper_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ABDCD05B1A5C5C1A4318AFA0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SDViewHelper_Tests/Pods-SDViewHelper_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Expecta/Expecta.framework",
-				"${BUILT_PRODUCTS_DIR}/Expecta+Snapshots/Expecta_Snapshots.framework",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-				"${BUILT_PRODUCTS_DIR}/Specta/Specta.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta_Snapshots.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Specta.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDViewHelper_Tests/Pods-SDViewHelper_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B3DF38EC6991CEC6062375D5 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -392,21 +341,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDViewHelper_Example/Pods-SDViewHelper_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B822DAF310BEC46CFD27CEDE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDViewHelper_Tests/Pods-SDViewHelper_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FC4E11FA49F8F699262166A3 /* [CP] Check Pods Manifest.lock */ = {
@@ -593,7 +527,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F3E580C29D64F170C2A61B5 /* Pods-SDViewHelper_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -617,7 +550,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C70CF75DCB0F3DC65563344D /* Pods-SDViewHelper_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
