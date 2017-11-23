@@ -11,14 +11,15 @@
 		0DA40848FA1D1E2196F179A9D49B0E2D /* UIViewController+VCLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A251F2C1E5786D59A846DA766662EFB /* UIViewController+VCLoader.m */; };
 		1305D31D7678AACC644E86814E9111E9 /* SDViewHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09CB7F9E16F44BC576C7CF55782BE95D /* SDViewHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18B29FB19D608579ECBC295AD7FCCED8 /* UIViewController+VCLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E73D4C3ED6139904E8BDF384609C6CB /* UIViewController+VCLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D1A11DA8CEF318AC784911D49EE33E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		3452783A5BD013D8DEFFFF13C8DDE64A /* Pods-SDViewHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BDC42045F5CAB7550B74A24A43A6F92 /* Pods-SDViewHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A42F59B90136F3E96EBCC1DA3A2E1FA /* Pods-SDViewHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD447CFF7EF7F4F010F90F0F514E773 /* Pods-SDViewHelper_Example-dummy.m */; };
 		4B5656839DE5EA6692AFE05035A342FA /* SDViewHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7DC2C9C380DF75E305D63BBD7D010D /* SDViewHelper-dummy.m */; };
-		6971919726B3320C62DEFDBC4149449F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6971919726B3320C62DEFDBC4149449F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		A7694899843E9CA3F0144BBBC131F51C /* UIView+IBnspectable.h in Headers */ = {isa = PBXBuildFile; fileRef = F0378544D1854E95570C5BF02040F672 /* UIView+IBnspectable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2A279D063C2F84DA87CCCDDF4F2C731 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		DD0D359F1657D9FE30093F086E681C53 /* UIView+RectCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C9F30B8E3FB0CB83AE2A86E70A7E2A /* UIView+RectCorner.m */; };
 		E00101C315A22F9B4E5C25F4A0A906E7 /* UIView+RectCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = 307DCE74C00F7E2B75DCB0FEDDB5D7DE /* UIView+RectCorner.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5AA0CA455F6FEAD79B62FE3936B2A2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +43,6 @@
 		54209C555DCD980D12646B6FAE0696BD /* Pods_SDViewHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SDViewHelper_Example.framework; path = "Pods-SDViewHelper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A6B40A8359FCA256F28FC11A155DAC8 /* Pods-SDViewHelper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SDViewHelper_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5B7DC2C9C380DF75E305D63BBD7D010D /* SDViewHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDViewHelper-dummy.m"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6C41DDD7F081B2E1CA9DB2B6725D42FA /* Pods-SDViewHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SDViewHelper_Example.modulemap"; sourceTree = "<group>"; };
 		6FD447CFF7EF7F4F010F90F0F514E773 /* Pods-SDViewHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDViewHelper_Example-dummy.m"; sourceTree = "<group>"; };
 		766BF36322819015CB64A65E02C3CFAB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,10 +52,12 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96F704A43D6824B1EA11D33FAC20A312 /* Pods-SDViewHelper_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SDViewHelper_Example-resources.sh"; sourceTree = "<group>"; };
 		9E73D4C3ED6139904E8BDF384609C6CB /* UIViewController+VCLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+VCLoader.h"; path = "SDViewHelper/Classes/UIViewController+VCLoader.h"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		BAA49DB05845CCC37916E49FAACDF523 /* Pods-SDViewHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDViewHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BB3A297E75C3E57D599BECC0FBCF0E22 /* Pods-SDViewHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDViewHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BCC2FC0999D13BEFE22A365C016F515D /* SDViewHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SDViewHelper.modulemap; sourceTree = "<group>"; };
 		BEA7E230E543E4854D756D17473FE29E /* Pods-SDViewHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDViewHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E0C5803A2DEDD1F3282F7F17AB6091D5 /* SDViewHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDViewHelper-prefix.pch"; sourceTree = "<group>"; };
 		F0378544D1854E95570C5BF02040F672 /* UIView+IBnspectable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+IBnspectable.h"; path = "SDViewHelper/Classes/UIView+IBnspectable.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,11 +71,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		36733689E24EE247107A4CA36C9D3516 /* Frameworks */ = {
+		DFEFC2F06E454F8F8DCC1A46BE8B1B62 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5AA0CA455F6FEAD79B62FE3936B2A2C /* Foundation.framework in Frameworks */,
+				B2A279D063C2F84DA87CCCDDF4F2C731 /* Foundation.framework in Frameworks */,
+				1D1A11DA8CEF318AC784911D49EE33E6 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,12 +121,29 @@
 			path = "Example/Pods/Target Support Files/SDViewHelper";
 			sourceTree = "<group>";
 		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				8D7A2A21DFDF82A453C9223259FD3F64 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				0B7045EEA325814494E5B072E2B75FAB /* Products */,
 				9FD05CF6A2B3F4AC094F36ACB1AC57B2 /* Targets Support Files */,
 			);
@@ -161,22 +181,6 @@
 				9448FEC8DA7A5721AA2702CB7928181D /* Pods-SDViewHelper_Example */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,7 +231,7 @@
 			buildConfigurationList = 0F9809C217A538F963DF27D29B6DCFA8 /* Build configuration list for PBXNativeTarget "SDViewHelper" */;
 			buildPhases = (
 				CEEE3C331F6FFE70D407E7589D60102F /* Sources */,
-				36733689E24EE247107A4CA36C9D3516 /* Frameworks */,
+				DFEFC2F06E454F8F8DCC1A46BE8B1B62 /* Frameworks */,
 				F5187F6A503920FD6315BB4075C904A3 /* Headers */,
 			);
 			buildRules = (

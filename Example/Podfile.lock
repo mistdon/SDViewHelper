@@ -1,5 +1,5 @@
 PODS:
-  - SDViewHelper (0.1.0)
+  - SDViewHelper (1.0.1)
 
 DEPENDENCIES:
   - SDViewHelper (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SDViewHelper: 9cacafa56bba174ab67edb8a5ccb332a242efd3c
+  SDViewHelper: d2b46bbee05cc45309dfcdf32720a55760664037
 
 PODFILE CHECKSUM: 29fd558b253546c8db689055c89383b5873c41f9
 

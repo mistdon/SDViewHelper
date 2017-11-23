@@ -9,7 +9,7 @@
 
 @implementation UIView (RectCorner)
 
-- (void)dx_cornerTop {
+- (void)sd_cornerTop {
     UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds byRoundingCorners:(UIRectCornerTopLeft | UIRectCornerTopRight) cornerRadii:CGSizeMake(self.bounds.size.width / 2.0, self.bounds.size.height / 2.0)];
     CAShapeLayer *maskLayer = [[CAShapeLayer alloc] init];
     maskLayer.frame = self.bounds;
@@ -17,7 +17,7 @@
     self.layer.mask = maskLayer;
 }
 
-- (void)dx_cornerBottom {
+- (void)sd_cornerBottom {
     UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds byRoundingCorners:(UIRectCornerBottomLeft | UIRectCornerBottomRight) cornerRadii:CGSizeMake(self.bounds.size.width / 2.0, self.bounds.size.height / 2.0)];
     CAShapeLayer *maskLayer = [[CAShapeLayer alloc] init];
     maskLayer.frame = self.bounds;
@@ -25,7 +25,7 @@
     self.layer.mask = maskLayer;
 }
 
-- (void)dx_cornerLeft {
+- (void)sd_cornerLeft {
     UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds byRoundingCorners:(UIRectCornerTopLeft | UIRectCornerBottomLeft) cornerRadii:CGSizeMake(self.bounds.size.width / 2.0, self.bounds.size.height / 2.0)];
     CAShapeLayer *maskLayer = [[CAShapeLayer alloc] init];
     maskLayer.frame = self.bounds;
@@ -35,7 +35,7 @@
     
 }
 
-- (void)dx_cornerRight {
+- (void)sd_cornerRight {
     UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds byRoundingCorners:(UIRectCornerTopRight | UIRectCornerBottomRight) cornerRadii:CGSizeMake(self.bounds.size.width / 2.0, self.bounds.size.height / 2.0)];
     CAShapeLayer *maskLayer = [[CAShapeLayer alloc] init];
     maskLayer.frame = self.bounds;
@@ -43,7 +43,7 @@
     self.layer.mask = maskLayer;
 }
 
-- (void)dx_cornerAll {
+- (void)sd_cornerAll {
     UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds byRoundingCorners:UIRectCornerAllCorners cornerRadii:CGSizeMake(self.bounds.size.width / 2.0, self.bounds.size.height / 2.0)];
     CAShapeLayer *maskLayer = [[CAShapeLayer alloc] init];
     maskLayer.frame = self.bounds;
@@ -51,7 +51,7 @@
     self.layer.mask = maskLayer;
 }
 
-- (void)dx_cornerNone {
+- (void)sd_cornerNone {
     if (self.layer.mask != nil) {
         self.layer.mask = nil;
     }

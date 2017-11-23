@@ -1,8 +1,8 @@
 {
   "name": "SDViewHelper",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "summary": "There are some useful category to develop quickly.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "There are some useful category of UIKit to help develop quickly.",
   "homepage": "https://github.com/momo13014/SDViewHelper",
   "license": {
     "type": "MIT",
@@ -13,10 +13,11 @@
   },
   "source": {
     "git": "https://github.com/momo13014/SDViewHelper.git",
-    "tag": "0.1.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SDViewHelper/Classes/**/*"
+  "source_files": "SDViewHelper/Classes/**/*",
+  "frameworks": "UIKit"
 }

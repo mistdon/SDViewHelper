@@ -13,15 +13,8 @@
 + (instancetype)viewController:(NSString*)controllerClassName inStoryboard:(nullable NSString*)storyboardName arguments:(nullable NSDictionary *)args{
     UIViewController* controller = nil;
     if (storyboardName.length > 0 ) {
-//        if (storyboardName.length > 0) {
-            UIStoryboard* storyboard = [UIStoryboard storyboardWithName:storyboardName bundle:[NSBundle mainBundle]];
-            controller = [storyboard instantiateViewControllerWithIdentifier:controllerClassName];
-//        }else if (nibName.length > 0){
-//            Class vcClass = NSClassFromString(controllerClassName);
-//            if ([vcClass isMemberOfClass:[UIViewController class]]) {
-//                controller = [[UIViewController alloc] initWithNibName:nibName bundle:[NSBundle mainBundle]];
-//            }
-//        }
+        UIStoryboard* storyboard = [UIStoryboard storyboardWithName:storyboardName bundle:[NSBundle mainBundle]];
+        controller = [storyboard instantiateViewControllerWithIdentifier:controllerClassName];
     }else{
         controller = [NSClassFromString(controllerClassName) new];
     }
@@ -49,8 +42,5 @@
 + (instancetype)sd_viewController:(NSString *)controllerClassName inStoryboard:(NSString *)storyboardName arguments:(NSDictionary *)args{
     return [self viewController:controllerClassName inStoryboard:storyboardName arguments:args];
 }
-//+ (instancetype)sd_viewController:(NSString *)controllerClassName inNib:(NSString *)nibName arguments:(NSDictionary *)args{
-//    return [self viewController:controllerClassName inStoryboard:nil  arguments:args];
-//}
 
 @end

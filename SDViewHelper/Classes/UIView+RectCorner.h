@@ -10,21 +10,21 @@
 @interface UIView (RectCorner)
 
 //! Top corner
-- (void)dx_cornerTop;
+- (void)sd_cornerTop;
 
 //! Bottom corner
-- (void)dx_cornerBottom;
+- (void)sd_cornerBottom;
 
 //! Left corner
-- (void)dx_cornerLeft;
+- (void)sd_cornerLeft;
 
 //! Right corner
-- (void)dx_cornerRight;
+- (void)sd_cornerRight;
 
 //! All corner
-- (void)dx_cornerAll;
+- (void)sd_cornerAll;
 
 //! Remove corner if have
-- (void)dx_cornerNone;
+- (void)sd_cornerNone;
 
 @end

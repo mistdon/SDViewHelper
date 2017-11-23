@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SDViewHelper'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'There are some useful category to develop quickly.'
 
 # This description is used to generate tags and improve search results.

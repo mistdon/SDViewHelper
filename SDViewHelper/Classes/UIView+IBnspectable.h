@@ -11,9 +11,10 @@
 
 @property (assign, nonatomic) IBInspectable CGFloat cornerRadius;
 @property (assign, nonatomic) IBInspectable CGFloat borderWidth;
-@property (strong, nonatomic, nonnull) IBInspectable UIColor *borderColor;
-
-@property (assign, nonatomic) IBInspectable BOOL hOnePx; //水平宽度1px
-@property (assign, nonatomic) IBInspectable BOOL vOnePx; //竖直高度1px
+@property (nonatomic, nonnull) IBInspectable UIColor *borderColor;
+//! horizonal height: 1px
+@property (assign, nonatomic) IBInspectable BOOL horizonalOnePx;
+//! vertical height: 1px
+@property (assign, nonatomic) IBInspectable BOOL verticalOnePx;
 
 @end

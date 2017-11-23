@@ -9,7 +9,7 @@
 
 @implementation UIView (IBnspectable)
 
-@dynamic vOnePx, hOnePx, cornerRadius, borderColor, borderWidth;
+@dynamic verticalOnePx, horizonalOnePx, cornerRadius, borderColor, borderWidth;
 
 - (void)setCornerRadius:(CGFloat)cornerRadius
 {
@@ -42,14 +42,14 @@
     return [UIColor colorWithCGColor:self.layer.borderColor];
 }
 
-- (BOOL)isHOnePx
+- (BOOL)isHorizonalOnePx
 {
-    return self.hOnePx;
+    return self.horizonalOnePx;
 }
 
-- (void)setHOnePx:(BOOL)hOnePx
+- (void)setHorizonalOnePx:(BOOL)horizonalOnePx
 {
-    if(hOnePx) {
+    if(horizonalOnePx) {
         NSLayoutAttribute layoutAttribute = NSLayoutAttributeWidth;
         [self.constraints enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
             NSLayoutConstraint *constraint = (NSLayoutConstraint *)obj;
@@ -64,15 +64,15 @@
 }
 
 
-- (BOOL)isVOnePx
+- (BOOL)isVerticalOnePx
 {
-    return self.vOnePx;
+    return self.verticalOnePx;
 }
 
 
-- (void)setVOnePx:(BOOL)vOnePx
+- (void)setVerticalOnePx:(BOOL)verticalOnePx
 {
-    if(vOnePx) {
+    if(verticalOnePx) {
         NSLayoutAttribute layoutAttribute = NSLayoutAttributeHeight;
         [self.constraints enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
             NSLayoutConstraint *constraint = (NSLayoutConstraint *)obj;
